@@ -14,7 +14,7 @@ public class StreamingAssetTEST : MonoBehaviour {
     {
         rend = GetComponent<Renderer>();
         audioSource = GetComponent<AudioSource>();
-        url = "file:///" + Application.streamingAssetsPath + "/Train.mp4";
+        url = "file:///" + Application.streamingAssetsPath + "/train.ogv";
     }
 
     void Start()
