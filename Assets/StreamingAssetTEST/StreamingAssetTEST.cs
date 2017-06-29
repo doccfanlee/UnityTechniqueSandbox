@@ -25,7 +25,7 @@ public class StreamingAssetTEST : MonoBehaviour {
     {
         WWW www = new WWW(url);
         Debug.Log(url);
-        movieTexture = www.movie;
+        movieTexture = www.GetMovieTexture();
         audioSource.clip = movieTexture.audioClip;
 
         while (!movieTexture.isReadyToPlay)
