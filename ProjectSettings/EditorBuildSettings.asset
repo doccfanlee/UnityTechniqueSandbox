@@ -6,8 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ScriptObjects/SourceScene.unity
-    guid: c7721887cd348436db0a4f3171278fd0
-  - enabled: 1
-    path: Assets/ScriptObjects/TargetScene.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/PageView/PageView.unity
+    guid: 2c1be472c30ae3c49a8476e355758505
